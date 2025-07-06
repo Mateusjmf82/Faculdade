@@ -1,0 +1,87 @@
+body {  
+  background-color: #F5F5F5;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  font-size: 22px;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 22px;
+}
+
+h3 {
+  color: green;
+  text-align: center;
+  font-size: 22px;
+}
+
+p {
+  font-size: 24px;       /* Tamanho de fonte maior */
+  text-align: justify;   /* Alinhamento justificado */
+  color: black;  
+}
+
+ul {
+  font-size: 18px;
+  line-height: 1.6;
+  list-style-type: square;
+  margin-bottom: 12px;   /* Espaçamento maior entre os itens da lista */
+  color: black;
+}
+
+img {
+  border-radius: 12px;
+  width: 100%; /* Imagem responsiva */
+  max-width: 600px; /* Largura máxima para manter a qualidade */
+  height: auto; /* Altura automática para manter a proporção */
+  display: block;
+  margin: 0 auto;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden; /* Para aplicar o border-radius corretamente */
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#mensagem {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+}
